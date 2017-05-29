@@ -18,7 +18,7 @@ start:
 	   mov di,offset string1
 	   cld
 	   mov cx,21
-	   mov al,'s'
+	   mov al,'s'；要比较的字符为s
 	   repnz scasb
 	   jnz notfound	
        mov dx,offset string2
